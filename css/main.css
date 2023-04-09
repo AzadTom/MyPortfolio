@@ -138,7 +138,7 @@ main {
 
   background-color: white;
   color: black;
-  
+
 }
 
 /* Portfolio */
@@ -238,7 +238,7 @@ footer svg {
 @media screen and (max-width: 500px) {
   .bio {
     margin: 2em;
-    background-color: red;
+  
 
   }
 
