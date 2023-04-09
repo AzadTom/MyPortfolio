@@ -136,8 +136,9 @@ main {
 
 .bio > a:hover {
 
-  background-color: darkred;
-  border: 1px solid white;
+  background-color: white;
+  color: black;
+  
 }
 
 /* Portfolio */
@@ -237,6 +238,14 @@ footer svg {
 @media screen and (max-width: 500px) {
   .bio {
     margin: 2em;
+    background-color: red;
+
+  }
+
+  a{
+
+    border: none;
+
   }
 
   .greeting h1 {
