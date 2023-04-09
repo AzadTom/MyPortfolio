@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins:wght@200;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
+.greeting h1 {
+  letter-spacing: 0.8em;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.greeting p {
+  font-weight: 400;
+}
+
+/* bio */
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2em;
+  text-align: center;
+  padding: 2em;
+  height: 90vh;
+  margin: 4em;
+  background-color: black;
+  position: relative;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 100px;
+  transition: all 0.3s ease-in;
+  animation: scrolling 0.3s ease-in-out;
+}
+
+@keyframes scrolling {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.bio::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(hsla(0, 100%, 51%, 1), hsla(0, 100%, 51%, 0));
+  border-radius: 100px;
+  margin: -1px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bio h1 {
+  font-weight: 200;
+}
+
+.bio span {
+  font-weight: 700;
+}
+
+.bio-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  font-weight: 200;
+}
+
+@keyframes btnanim {
+  from {
+    transform: translateY(1rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.bio a {
+  border-radius: 50px;
+  background-color: hsla(234, 100%, 50%, 1);
+  color: white;
+  border: 1px solid white;
+  margin-top: 4em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: btnanim 5s linear infinite alternate;
+  padding: 1rem 2rem;
+
+
+  
+
+
+}
+
+.bio button a {
+  color: white;
+  text-decoration: none;
+ 
+ 
+}
+
+.bio > a:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+
+/* Portfolio */
+
+section.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(hsla(0, 0%, 85%, 0), hsla(0, 0%, 85%, 0.1));
+}
+
+.project-info {
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
+#project-img {
+  width: 24px;
+  height: 24px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.title h2 {
+  font-weight: 200;
+}
+
+.project-info div img {
+  width: 500px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-top: 8em;
+  
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+footer h2 {
+  font-weight: 400;
+}
+
+footer svg {
+  width: 4rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  .project-info div img {
+    width: 300px;
+  }
+
+  .greeting h1 {
+    letter-spacing: 0.8em;
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .bio {
+    margin: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bio {
+    margin: 2em;
+  }
+
+  .greeting h1 {
+    letter-spacing: 0.8em;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+}
