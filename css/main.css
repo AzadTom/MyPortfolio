@@ -14,6 +14,8 @@ body {
   background-color: black;
   color: white;
   font-family: "Poppins", sans-serif;
+  margin-top: 2em;
+
 }
 
 main {
@@ -35,7 +37,7 @@ main {
 .greeting h1 {
   letter-spacing: 0.8em;
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .greeting p {
@@ -54,6 +56,8 @@ main {
   padding: 2em;
   height: 90vh;
   margin: 4em;
+  margin-top: 6em;
+
   background-color: black;
   position: relative;
   box-sizing: border-box;
@@ -111,30 +115,28 @@ main {
 
 .bio a {
   border-radius: 50px;
-  background-color: hsla(234, 100%, 50%, 1);
-  color: white;
+
+  background-color: black;
   border: 1px solid white;
+
   margin-top: 4em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   animation: btnanim 5s linear infinite alternate;
   padding: 1rem 2rem;
 
-
+  color: white;
+  text-decoration: none;
   
 
 
 }
 
-.bio button a {
-  color: white;
-  text-decoration: none;
- 
- 
-}
+
 
 .bio > a:hover {
-  background-color: black;
+
+  background-color: darkred;
   border: 1px solid white;
 }
 
@@ -147,11 +149,19 @@ section.portfolio {
   flex-direction: column;
   text-align: center;
   background: linear-gradient(hsla(0, 0%, 85%, 0), hsla(0, 0%, 85%, 0.1));
+ 
+
+}
+section.portfolio h1{
+
+     margin-bottom: 4em;
+
+
 }
 
 .project-info {
-  margin-top: 6em;
-  margin-bottom: 2em;
+ 
+  margin-bottom: 4em;
 }
 
 #project-img {
@@ -170,11 +180,13 @@ a {
 }
 
 .title h2 {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .project-info div img {
   width: 500px;
+  border-radius: 2rem;
+
 }
 
 /* footer */
