@@ -20,6 +20,11 @@ body {
 
 }
 
+strong{
+  font-weight: 400;
+  
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -237,7 +242,7 @@ section.skill{
 
 .skill-detail  h2 {
 
-  font-weight: 200;
+  font-weight: 400;
 
 
 
