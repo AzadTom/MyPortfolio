@@ -108,7 +108,8 @@ header svg:nth-child(2) {
 .bio::before {
   content: "";
   position: absolute;
-  background: linear-gradient(hsla(0, 100%, 51%, 1), hsla(0, 100%, 51%, 0));
+  background: linear-gradient(#00E941, hsla(0, 100%, 51%, 0));
+  /* hsla(0, 100%, 51%, 1) */
   border-radius: 100px;
   margin: -1px;
   z-index: -1;
@@ -375,7 +376,7 @@ footer svg {
     font-weight: 200;
   }
 
-  .bio {
+.bio {
     margin: 2em;
     border-radius: 32px;
 
@@ -395,6 +396,12 @@ footer svg {
     margin-bottom: -1em;
   }
 
+  .bio::before {
+ 
+    /* background: linear-gradient(hsla(0, 100%, 51%, 1), hsla(0, 100%, 51%, 0)); */
+    background-color: black;
+   
+  }
  
 
   header svg:nth-child(2) {
@@ -421,7 +428,7 @@ footer svg {
 .hidden{
 
 opacity: 0;
-filter: blur(5px);
+filter: blur(3px);
 transform: translateY(100px);
 transition: all 1s;
 
