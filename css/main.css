@@ -48,6 +48,9 @@ header svg:nth-child(2) {
 
 /* hero-section */
 
+
+
+
 .greeting {
   display: flex;
   flex-direction: column;
@@ -138,9 +141,9 @@ header svg:nth-child(2) {
 }
 
 .bio a {
-  background: linear-gradient(180deg, #00fa46 0%, #09842b 100%);
+  background: linear-gradient(180deg, #00FA46 0%, #04932C 100%);
   border: 1px solid #ffffff;
-  border-radius: 100px;
+  border-radius: 50px;
 
   margin-top: 4em;
   cursor: pointer;
@@ -153,8 +156,8 @@ header svg:nth-child(2) {
 }
 
 .bio > a:hover {
-  color: white;
-  background: #00fa46;
+  color: black;
+  background: white;
 }
 
 /* Portfolio */
@@ -253,7 +256,7 @@ section.skill {
   height: 200px;
   padding: 2rem;
   background: linear-gradient(180deg, #00fa46 0%, #09842b 100%);
-  border: 1px solid #ffffff;
+
   border-radius: 16px;
   display: flex;
   justify-content: center;
