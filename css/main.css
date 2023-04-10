@@ -314,7 +314,7 @@ bottom: 0;
 
 position: absolute;
 
-background: #00FA46;
+background: rgba(0, 250, 70, 0.8);
 filter: blur(73.5294px);
 z-index: -1;
 
