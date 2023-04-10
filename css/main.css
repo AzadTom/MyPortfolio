@@ -16,6 +16,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 strong {
   font-weight: 400;
 }
@@ -223,7 +225,7 @@ section.portfolio h1 {
 .title p{
 
   opacity: 50%;
-  
+
 }
 
 .project-info {
@@ -409,6 +411,29 @@ footer svg {
   .greeting h1 {
     letter-spacing: 0.8em;
     font-size: 1.5rem;
+    display: block;
+    text-align: center;
     font-weight: 200;
   }
+}
+
+
+.hidden{
+
+opacity: 0;
+filter: blur(5px);
+transform: translateY(100px);
+transition: all 1s;
+
+}
+
+.show {
+
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+
+  
+
+
 }
