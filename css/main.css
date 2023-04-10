@@ -15,6 +15,8 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   margin-top: 2em;
+  
+
 
 }
 
@@ -53,7 +55,8 @@ main {
   flex-direction: column;
   row-gap: 2em;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
+  padding-top:2em;
   height: 90vh;
   margin: 4em;
   margin-top: 6em;
@@ -170,18 +173,31 @@ section.portfolio h1{
   height: 24px;
 }
 
-a {
+.title #name {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
-  cursor: pointer;
   color: white;
   text-decoration: none;
 }
 
+.title{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .title h2 {
   font-weight: 400;
+}
+
+.project-info {
+
+  width: 500px;
+
 }
 
 .project-info div img {
@@ -189,6 +205,73 @@ a {
   border-radius: 2rem;
 
 }
+
+
+/* Skill */
+
+section.skill{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.skill-detail{
+
+
+
+  margin-top: 3em;
+  display: flex;
+  column-gap: 2em;
+   color: white;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-bottom: 6em;
+
+ 
+}
+
+.skill-detail  h2 {
+
+  font-weight: 200;
+
+
+
+}
+
+
+#read-more {
+  border-radius: 50px;
+
+  background-color: black;
+  border: 1px solid white;
+
+  margin-top: 4em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: btnanim 5s linear infinite alternate;
+  padding: 1rem 2rem;
+
+  color: white;
+  text-decoration: none;
+  
+
+
+}
+
+
+
+#read-more:hover {
+
+  background-color: white;
+  color: black;
+
+}
+
 
 /* footer */
 
@@ -219,9 +302,25 @@ footer svg {
 
 /* media queries */
 
+
+@media screen and (min-width: 600px) {
+
+  .bio{
+
+    margin:6em;
+
+  }
+}
+
 @media screen and (max-width: 600px) {
   .project-info div img {
     width: 300px;
+  }
+
+  .project-info {
+
+    width: 300px;
+    
   }
 
   .greeting h1 {
@@ -231,13 +330,13 @@ footer svg {
   }
 
   .bio {
-    margin: 3em;
+    margin: 2em;
   }
 }
 
 @media screen and (max-width: 500px) {
   .bio {
-    margin: 2em;
+    margin: 1em;
   
 
   }
