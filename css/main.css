@@ -264,8 +264,8 @@ z-index: -1;
 }
 
 #read-more:hover {
-  color: white;
-  background: #00fa46;
+  color: black;
+  background: white;
 }
 
 /* Skill */
@@ -291,7 +291,7 @@ section.skill {
   width: 200px;
   height: 200px;
   padding: 2rem;
-  background: linear-gradient(136.68deg, #00E941 2.34%, #019C2C 102.42%);
+  background: linear-gradient(180deg, #02DF40 0%, rgba(7, 197, 60, 0.51) 100%);
   gap: 2em;
   border-radius: 16px;
   display: flex;
