@@ -153,8 +153,26 @@ header svg:nth-child(2) {
 
   color: white;
   text-decoration: none;
+  position: relative;
+
 }
 
+
+.bio a:before{
+
+  content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+position: absolute;
+
+background: #00FA46;
+filter: blur(73.5294px);
+z-index: -1;
+
+}
 .bio > a:hover {
   color: black;
   background: white;
@@ -225,6 +243,24 @@ section.portfolio h1 {
 
   color: white;
   text-decoration: none;
+  position: relative;
+
+}
+
+
+#read-more:before{
+
+  content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+position: absolute;
+
+background: #00FA46;
+filter: blur(73.5294px);
+z-index: -1;
 }
 
 #read-more:hover {
@@ -256,14 +292,31 @@ section.skill {
   height: 200px;
   padding: 2rem;
   background: linear-gradient(136.68deg, #00E941 2.34%, #019C2C 102.42%);
-
+  gap: 2em;
   border-radius: 16px;
   display: flex;
   justify-content: center;
   animation: btnanim 5s linear infinite alternate;
   align-items: center;
   text-align: center;
+  position: relative;
 
+
+}
+
+.skill-detail h2:before{
+
+content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+position: absolute;
+
+background: #00FA46;
+filter: blur(73.5294px);
+z-index: -1;
 
 }
 
