@@ -304,21 +304,7 @@ section.skill {
 
 }
 
-.skill-detail h2:before{
 
-content: "";
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-
-position: absolute;
-
-background: rgba(0, 250, 70, 0.8);
-filter: blur(73.5294px);
-z-index: -1;
-
-}
 
 
 
