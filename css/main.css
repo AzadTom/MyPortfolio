@@ -220,6 +220,11 @@ section.portfolio h1 {
 .title h2 {
   font-weight: 400;
 }
+.title p{
+
+  opacity: 50%;
+  
+}
 
 .project-info {
   width: 500px;
