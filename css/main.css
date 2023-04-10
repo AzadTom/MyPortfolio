@@ -141,7 +141,7 @@ header svg:nth-child(2) {
 }
 
 .bio a {
-  background: linear-gradient(180deg, #00FA46 0%, #04932C 100%);
+  background: linear-gradient(136.68deg, #00E941 2.34%, #019C2C 102.42%);
   border: 1px solid #ffffff;
   border-radius: 50px;
 
@@ -255,7 +255,7 @@ section.skill {
   width: 200px;
   height: 200px;
   padding: 2rem;
-  background: linear-gradient(180deg, #00fa46 0%, #09842b 100%);
+  background: linear-gradient(136.68deg, #00E941 2.34%, #019C2C 102.42%);
 
   border-radius: 16px;
   display: flex;
