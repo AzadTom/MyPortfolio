@@ -138,7 +138,7 @@ header svg:nth-child(2) {
 }
 
 .bio a {
-  background: black;
+  background: linear-gradient(180deg, #00fa46 0%, #09842b 100%);
   border: 1px solid #ffffff;
   border-radius: 100px;
 
@@ -153,8 +153,8 @@ header svg:nth-child(2) {
 }
 
 .bio > a:hover {
-  color: black;
-  background: white;
+  color: white;
+  background: #00fa46;
 }
 
 /* Portfolio */
@@ -247,19 +247,12 @@ section.skill {
   margin-bottom: 6em;
 }
 
-.skill-detail h2:hover{
-
-  background-color: white;
-  color: black;
-
-}
-
 .skill-detail h2 {
   font-weight: 400;
   width: 200px;
   height: 200px;
   padding: 2rem;
-  background: black;
+  background: linear-gradient(180deg, #00fa46 0%, #09842b 100%);
   border: 1px solid #ffffff;
   border-radius: 16px;
   display: flex;
@@ -314,14 +307,14 @@ footer svg {
     width: 300px;
   }
 
-  .skill-detail h2 {
-   width: 100px;
-   height: 100px;
-   font-size: 16px;
-   padding: 1em;
-  
-  
+  .skill-detail{
+
+    flex-direction: column;
+    row-gap: 2em;
+    
   }
+
+
 
   .project-info {
     width: 300px;
@@ -335,6 +328,13 @@ footer svg {
 
   .bio {
     margin: 2em;
+    border-radius: 32px;
+
+  }
+
+  .bio:before{
+    border-radius: 32px;
+
   }
 }
 
@@ -345,6 +345,8 @@ footer svg {
     margin-top: -1em;
     margin-bottom: -1em;
   }
+
+ 
 
   header svg:nth-child(2) {
     display: block;
