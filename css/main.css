@@ -230,10 +230,10 @@ section.skill{
 
   margin-top: 3em;
   display: flex;
+  flex-direction: column;
   column-gap: 2em;
    color: white;
    justify-content: center;
-   flex-wrap: wrap;
    margin-bottom: 6em;
 
  
@@ -242,6 +242,7 @@ section.skill{
 .skill-detail  h2 {
 
   font-weight: 400;
+  text-align: center;
 
 
 
