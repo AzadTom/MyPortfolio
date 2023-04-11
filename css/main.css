@@ -189,6 +189,7 @@ section.portfolio {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  background: linear-gradient(black,hsla(0, 0%, 85%, 0.1));
  
 }
 section.portfolio h1 {
