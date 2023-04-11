@@ -189,7 +189,7 @@ section.portfolio {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: linear-gradient(hsla(0, 0%, 85%, 0), hsla(0, 0%, 85%, 0.1));
+ 
 }
 section.portfolio h1 {
   margin-bottom: 4em;
@@ -326,7 +326,9 @@ footer {
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  margin-top: 8em;
+  padding-top: 8em;
+  background: hsla(0, 0%, 85%, 0.1);
+
 }
 
 .logo {
