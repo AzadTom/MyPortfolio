@@ -315,6 +315,33 @@ section.skill {
 }
 
 
+strong {
+
+  font-size: 1.5rem;
+}
+
+.resource {
+
+
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  overflow-x: scroll;
+  margin: 1rem;
+}
+
+.dagger {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+
+}
+
+
 
 
 
@@ -342,6 +369,15 @@ footer {
 
 footer h2 {
   font-weight: 400;
+}
+
+footer h3 a {
+
+
+  color: white;
+  text-decoration: none;
+
+
 }
 
 footer svg {
