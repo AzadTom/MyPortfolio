@@ -379,6 +379,18 @@ footer svg {
   width: 4rem;
 }
 
+
+ul {
+
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
 /* media queries */
 
 @media screen and (min-width: 600px) {
@@ -396,8 +408,22 @@ footer svg {
 
     flex-direction: column;
     row-gap: 2em;
+    font-size: 12px;
     
   }
+
+  ul {
+
+   
+   
+      flex-direction: column;
+
+  }
+
+   ul > li {
+
+    margin-top: 2rem;
+   }
 
 
 
