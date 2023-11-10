@@ -6,6 +6,15 @@ const tabsContent = tabsContainer.querySelectorAll(".tabsContents > div");
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
@@ -107,5 +116,11 @@ const observer = new IntersectionObserver((entries)=>{
 const  hidden = document.querySelectorAll('.hidden');
 
 hidden.forEach((e1)=> observer.observe(e1));
+
+
+
+
+
+
 
 
