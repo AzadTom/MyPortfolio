@@ -141,9 +141,8 @@ function androidContentRender(content){
             ${item.overview===undefined? "":item.overview}
     
             </p>
-            <a href="${item.live}" id="read-more" target="_blank"
-              >Live link</a
-            >
+            <a href="${item.live}" id="read-more" target="_blank">Github</a>
+
           </div>
          
         `;
