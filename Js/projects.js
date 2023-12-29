@@ -91,7 +91,7 @@ function webContentRender(content){
       
               </p>
               <p>${item.description===undefined? "":item.description}</p>
-              <a href="${item.live}" id="read-more" target="_blank">Live link</a
+              <a href="${item.live}" id="read-more">Live link</a
               >
             </div>
            
