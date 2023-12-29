@@ -17,7 +17,13 @@ let  webContent = [{
     // overview : "  This application is built with React and used rest api from Tmdb database.",
     // description :"I implemented home page with different genre of movie show when page is loaded..",
     live:"https://neetflixo.netlify.app/"
-}]
+},
+{
+  img:"./img/expenses.png",
+  name:"Expense website",
+  live:"https://maintainexpense.netlify.app/"
+}
+]
 
 
 
