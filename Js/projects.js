@@ -4,9 +4,18 @@ const webContainer = document.getElementById("webContainer");
 
 
 
-let  webContent = [{
+let  webContent = [
+  
+  {
+    img : "./img/foodlux.png",
+    name : "Foodlux",
+    github:"https://github.com/AzadTom/FoodLux",
+    live:"https://foodlux-frontend.vercel.app/"
+},
+  {
     img : "./img/ecommerceb.png",
     name : "Ecommerce Webapplication",
+    github:"https://github.com/AzadTom/REACT-ECOMMERCE",
     live:"https://boldx.netlify.app/"
 },
 {
