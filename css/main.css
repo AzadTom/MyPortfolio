@@ -363,15 +363,28 @@ footer {
 
 }
 
+
+
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 4em;
+
+}
+
+.logo a:hover{
+
+   background-color: black;
 }
 
 footer h2 {
   font-weight: 400;
+}
+
+footer h2 a:hover{
+
+  background-color: black;
 }
 
 footer h3 a {
@@ -383,8 +396,11 @@ footer h3 a {
 
 }
 
+ 
+
 footer svg {
   width: 4rem;
+  
 }
 
 

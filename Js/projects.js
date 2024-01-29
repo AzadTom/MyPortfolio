@@ -10,7 +10,7 @@ let  webContent = [
     img : "./img/foodlux.png",
     name : "Foodlux",
     github:"https://github.com/AzadTom/FoodLux",
-    live:"https://foodlux-frontend.vercel.app/"
+    live:"https://foodlux.netlify.app/"
 },
   {
     img : "./img/ecommerceb.png",
