@@ -533,3 +533,14 @@ transition: all 1s;
 }
 
 
+.button-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  align-items: center;
+  
+}
+
+

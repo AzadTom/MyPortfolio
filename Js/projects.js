@@ -5,12 +5,18 @@ const webContainer = document.getElementById("webContainer");
 
 
 let  webContent = [
-  
+  {
+    img:"./img/gymrecord.jpeg",
+    name:"GymRecord",
+    live:"https://gymrecord.vercel.app/",
+    github:"https://github.com/AzadTom/GYMRecord" 
+  },
   {
     img : "./img/foodlux.png",
     name : "Foodlux",
     github:"https://github.com/AzadTom/FoodLux",
-    live:"https://foodlux.netlify.app/"
+    live:"https://foodlux.netlify.app/",
+   
 },
   {
     img : "./img/ecommerceb.png",
@@ -19,15 +25,18 @@ let  webContent = [
     live:"https://boldx.netlify.app/"
 },
 {
-    img : "./img/neetflix.png",
-    name : "Neetflix website",
-    live:"https://neetflixo.netlify.app/"
-},
-{
   img:"./img/expenses.png",
   name:"Expense website",
+  github:"https://github.com/AzadTom/ExpenseTracker",
   live:"https://maintainexpense.netlify.app/"
-}
+},
+{
+    img : "./img/neetflix.png",
+    name : "Neetflix website",
+    github:"https://github.com/AzadTom?tab=repositories",
+    live:"https://neetflixo.netlify.app/"
+},
+
 ]
 
 
@@ -88,10 +97,12 @@ function webContentRender(content){
             <div class="title">
               <div id="name">
                 <h2>${item.name}</h2>
-              </div>
-      
+              </div>      
 
+             <div class="button-container">
               <a href="${item.live}" id="read-more">Live link</a>
+              <a href="${item.github}" id="read-more">Github</a>
+             </div>
             </div>
            
           `;
