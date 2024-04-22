@@ -25,6 +25,20 @@ let  webContent = [
     live:"https://boldx.netlify.app/"
 },
 {
+
+  img:"./img/whiteboard.png",
+  name:"WhiteBoard",
+  github:"https://github.com/AzadTom/WhiteBoard-FrontEnd",
+  live:"https://white-board-front-end.vercel.app/"
+},
+{
+  img:"./img/notes.png",
+  name:"Collabrative Notes",
+  github:"https://github.com/AzadTom/NoteTaking-Frontend",
+  live:"https://colabrationnotes.netlify.app/"
+
+},
+{
   img:"./img/expenses.png",
   name:"Expense website",
   github:"https://github.com/AzadTom/ExpenseTracker",
